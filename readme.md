@@ -16,7 +16,7 @@ $ npm install --save svg-elements
 var svgElements = require('svg-elements');
 
 console.log(svgElements);
-//=> ['a', 'altGlyph', 'altGlyphDef',]
+//=> ['a', 'altGlyph', 'altGlyphDef', …]
 ```
 
 
