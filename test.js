@@ -1,5 +1,4 @@
 'use strict';
-var assert = require('assert');
 var svgElements = require('./');
 
 it('It\'s all good', function () {
