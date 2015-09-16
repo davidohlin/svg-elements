@@ -1,8 +1,8 @@
 'use strict';
-var assert = require('assert');
+var test = require('ava');
 var svgElements = require('./');
 
-it('It\'s all good', function () {
-	assert(Array.isArray(svgElements));
-	assert(svgElements.length > 10 && svgElements.length < 1000);
+test(function (t) {
+	t.is(Array.isArray(svgElements), true);
+	t.end();
 });
