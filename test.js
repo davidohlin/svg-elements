@@ -1,8 +1,7 @@
 'use strict';
-var test = require('ava');
-var svgElements = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.is(Array.isArray(svgElements), true);
-	t.end();
+test('array', t => {
+	t.is(Array.isArray(m), true);
 });

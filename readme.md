@@ -13,7 +13,7 @@ $ npm install --save svg-elements
 ## Usage
 
 ```js
-var svgElements = require('svg-elements');
+const svgElements = require('svg-elements');
 
 console.log(svgElements);
 //=> ['a', 'altGlyph', 'altGlyphDef', …]

@@ -10,7 +10,7 @@
     "url": "davidohlin.se"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -26,12 +26,7 @@
     "list"
   ],
   "devDependencies": {
-    "ava": "^0.2.0",
-    "xo": "^0.7.1"
-  },
-  "xo": {
-    "envs": [
-      "node"
-    ]
+    "ava": "*",
+    "xo": "^0.16.0"
   }
 }
